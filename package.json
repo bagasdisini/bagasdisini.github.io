@@ -1,12 +1,12 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "https://bagasdisini.github.io/",
+  "homepage": "https://bagasdisini.github.io",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b main -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"
